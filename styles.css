@@ -154,7 +154,7 @@ body {
     color: #fff;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     opacity: 0;
-    animation: fadeInConstellation 3s ease-in-out 1s forwards;
+    animation: fadeInConstellation 5s ease-in-out 2s forwards;
 }
 
 .personal-message {
@@ -280,4 +280,5 @@ body {
 .inside-page.visible {
     opacity: 1;
     visibility: visible;
+
 }
