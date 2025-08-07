@@ -146,7 +146,7 @@ body {
 
 .constellation-name {
     position: absolute;
-    top: 50%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-family: 'Dancing Script', cursive;
@@ -154,11 +154,12 @@ body {
     color: #fff;
     text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
     opacity: 0;
-    animation: fadeInConstellation 10s ease-in-out 2s forwards;
+    animation: fadeInConstellation 5s ease-in-out 2s forwards;
 }
 
 .personal-message {
     position: absolute;
+    top: 50px;
     bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
@@ -282,4 +283,5 @@ body {
     visibility: visible;
 
 }
+
 
